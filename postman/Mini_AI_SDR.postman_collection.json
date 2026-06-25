@@ -191,7 +191,7 @@
       "item": [
         {
           "name": "Run SDR Agent Pipeline",
-          "description": "Runs the full LangGraph agent for a lead:\n1. qualify_lead — scores the lead 0-100 using OpenAI/Groq\n2. route_by_score — conditional edge: score>=50 → email, else skip\n3. generate_email — generates personalized email via Gemini\n4. finalize — compiles results and timestamps completion",
+          "description": "Runs the full LangGraph agent for a lead:\n1. qualify_lead — scores the lead 0-100 using OpenAI/Groq\n2. finalize — compiles results and timestamps completion",
           "request": {
             "method": "POST",
             "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }],
