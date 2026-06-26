@@ -97,7 +97,7 @@ SMTP_FROM_EMAIL=your_email@gmail.com
 ### Step 2: Build and Run
 
 ```bash
-docker compose up --build -d
+docker compose up --build 
 ```
 
 This will:
